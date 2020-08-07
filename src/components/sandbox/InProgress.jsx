@@ -5,6 +5,7 @@ const InProgress = () => {
 
     return (
         <body>
+            <img src='../../../assets/hummingbird-logo.png' alt='hummingbird shape'></img>
             <section className={styles.InProgress}>
             <h1>PORTFOLIO IN PROGRESS</h1>
             <h3>I sincerely look forward to sharing my work with you soon!</h3>
