@@ -3,5 +3,9 @@
 .InProgress {
     font-family: 'Lexend Zetta', sans-serif;
     text-align: center;
-    background-image: url('../../../assets/hummingbird-logo.png');
+    
+}
+
+body {
+    background-image: url('../../../assets/hummingbird-logo.png') no-repeat fixed center  ;
 }
