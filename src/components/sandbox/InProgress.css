@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
 
 .InProgress {
+    
+    background-image: url('../../../assets/hummingbird-logo.png');
     font-family: 'Lexend Zetta', sans-serif;
+    color: rgb(111, 13, 111);
     text-align: center;
-    background-image: url('../../../assets/hummingbird-logo.png') no-repeat fixed bottom right ;
+    padding: 50%
 }
