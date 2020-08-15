@@ -8,6 +8,12 @@ export default function NavBar() {
       <ul className={styles.linkList}>
 
         <li>
+          <NavLink exact to="/" className={styles.navLink} activeClassName={styles.current}>
+            Home
+          </NavLink>
+        </li>
+
+        <li>
           <NavLink to="/projects" className={styles.navLink} activeClassName={styles.current}>
             Projects
           </NavLink>
