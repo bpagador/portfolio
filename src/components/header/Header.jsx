@@ -1,10 +1,10 @@
 import React from 'react';
+import styles from './Header.css';
 
 export default function Header() {
   return (
     <div>
-      <h1>B R I S E I D A</h1>
-      <h1>P A G A D O R </h1>
+      <h1 className={styles.pahloMyPahlo}>Briseida<br/>Pagador</h1>
     </div>
   );
 }
