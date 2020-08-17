@@ -1,9 +1,38 @@
 import React from 'react';
 
+
 export default function Projects() {
+
+  const fetchArt = '../../../assets/images/fetchART.jpg';
+  const affirmE = '../../../assets/images/affirme-1.jpg';
+  const cryptoStimulus = '../../../assets/images/crypto.jpg';
+  const githubLogo = '../../../assets/icons/github-2.png';
+  
   return (
     <div>
-      <h2>Projects </h2>     
+      <h2>Projects</h2>
+
+      <section>
+        <h3>FetchArt</h3>
+        <img src={fetchArt} alt="fetchArt logo" width="200" height="200"/>
+        <p>FetchART recognizes our information overconsumption and aims to give the “power of scroll” a new meaning.</p> 
+        <img src={githubLogo} alt="github logo" width="30" height="30" />
+      </section>
+
+      <section>
+        <h3>Affirm.e</h3>
+        <img src={affirmE} alt="affirm.e logo" width="200" height="200"/>
+        <p>The need for affirmations of our existence, of our health, and our worth are more important than ever--that is the ultimate goal of the Affirm.e Twitterbot.</p>
+        <img src={githubLogo} alt="github logo" width="30" height="30"/> 
+      </section>
+
+      <section>
+        <h3>CryptoStimulus</h3>
+        <img src={cryptoStimulus} alt="cryptoStimulus logo" width="500" height="200"/>
+        <p>With wealth redistribution in mind, CryptoStimulus hosts a growing database of grassroots organizations from which the user can filter and select favorites. </p>
+        <img src={githubLogo} alt="github logo" width="30" height="30"/> 
+      </section>
+          
     </div>
   );
 }
