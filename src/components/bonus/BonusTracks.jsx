@@ -1,4 +1,5 @@
 import React from 'react';
+import Main from '../App/Main';
 
 export default function BonusTracks() {
 
@@ -10,60 +11,64 @@ export default function BonusTracks() {
   const pdxwitLogo = '../../../assets/images/pdxwit.png';
 
   return (
-    <section>
-      <h2>Bonus Tracks</h2>
-      <ul>
+    <Main>
+      <section>
+        <h2>Bonus Tracks</h2>
+        <ul>
 
-        <li>
-          <img 
-            src={pdxwitLogo}
-            alt="email logo"/><br/>
+          <li>
+            <img 
+              src={pdxwitLogo}
+              alt="email logo"/><br/>
           
-          <a 
-            href={pdxwitScholarship} 
-            target="_blank" 
-            rel="noreferrer">
-            PDXWIT Scholarship</a>
+            <a 
+              href={pdxwitScholarship} 
+              target="_blank" 
+              rel="noreferrer">
+            PDXWIT Scholarship | </a>
 
-          <a 
-            href={speakersBureau} 
-            target="_blank" 
-            rel="noreferrer">
+            <a 
+              href={speakersBureau} 
+              target="_blank" 
+              rel="noreferrer">
             Speakers Bureau</a>
 
-          <p>
-            {'The PDX Women in Tech community has been a pivotal part of my growth as a Software Developer. I was recently awarded the #InvestingInYou Scholarship and am a member of PDXWIT\'s Speakers Bureau.'}
-          </p>
-        </li>
+            <p>
+              {'The PDX Women in Tech community has been a pivotal part of my growth as a Software Developer. I was recently awarded the #InvestingInYou Scholarship and am a member of PDXWIT\'s Speakers Bureau.'}
+            </p>
+          </li>
 
-        <li>
-          <img 
-            src={workFromHome} 
-            alt="email logo"/><br/>
+          <br/>
+
+          <li>
+            <img 
+              src={workFromHome} 
+              alt="email logo"
+              width="300"
+              height="300"
+            /><br/>
           
-          <a 
-            href={businessTribune} 
-            target="_blank" 
-            rel="noreferrer">
-            Coding While Distant </a>
+            <a 
+              href={businessTribune} 
+              target="_blank" 
+              rel="noreferrer">
+            Coding While Distant | </a>
 
-          <a href={alchemyCodeLab} 
-            target="_blank" 
-            rel="noreferrer">
+            <a href={alchemyCodeLab} 
+              target="_blank" 
+              rel="noreferrer">
             Alchemy Code Lab Spotlight</a>
 
-          <p>
-            {'Featured in the Business Tribune, alongside peers and teammates, sharing our experiences as developers impacted by the remote, work-from-home paradigm. I\'m featured last, there are plenty of typos to make you giggle and audibly sigh, including a misspelling of my name; however, it is an important--though brief and incomplete--glimpse into my lived experience as an immigrant developer in today\'s America. Tread lightly.'} 
-          </p>
+            <p>
+              {'Featured in the Business Tribune, alongside peers and teammates, sharing our experiences as developers impacted by the remote, work-from-home paradigm. I\'m featured last, there are plenty of typos to make you giggle and audibly sigh, including a misspelling of my name; however, it is an important--though brief and incomplete--glimpse into my lived experience as an immigrant developer in today\'s America. Tread lightly.'} 
+            </p>
+            <br/>
 
-        </li>
+          </li>
 
-        
-
-
-      </ul>
-    
-
-    </section>
+        </ul>
+  
+      </section>
+    </Main>
   );
 }

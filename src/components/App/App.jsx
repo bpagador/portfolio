@@ -11,11 +11,13 @@ import NavBar from '../nav/NavBar';
 import Contact from '../contact/Contact';
 import BonusTracks from '../bonus/BonusTracks';
 import Home from '../home/Home';
+import Resume from '../resume/Resume';
 
 export default function App() {
   return (
     <Router>
       <Header />
+      <Resume />
       <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/projects' component={Projects} />
