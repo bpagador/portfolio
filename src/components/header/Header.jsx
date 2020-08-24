@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Header.css';
 import Resume from '../resume/Resume';
-import hummingbird from '../../..//assets/images/hummingbird-logo.png';
+import hummingbird from '../../../assets/images/hummingbird-logo.png';
 
 export default function Header() {
   return (

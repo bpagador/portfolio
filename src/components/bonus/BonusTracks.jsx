@@ -1,8 +1,8 @@
 import React from 'react';
 import Main from '../App/Main';
 import styles from './BonusTracks.css';
-import wfh from '../../../assets/work-from-home.jpg';
-import pdxwit from '../../../assets/pdxwit.png';
+import wfh from '../../../assets/images/work-from-home.jpg';
+import pdxwit from '../../../assets/images/pdxwit.png';
 
 export default function BonusTracks() {
   const businessTribune =
