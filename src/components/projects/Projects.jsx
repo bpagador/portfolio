@@ -2,6 +2,7 @@ import React from 'react';
 import Main from '../App/Main';
 import ProjectCard from './ProjectCard';
 import styles from './Projects.css';
+import crypto from './crypto.jpg';
 
 export default function Projects() {
   return (
@@ -37,7 +38,7 @@ export default function Projects() {
         <ProjectCard
           title="CryptoStimulus"
           website="https://cryptostimulus.github.io/Project-Week-cryptoStimulus/"
-          logo="https://briseida-pagador.com/assets/images/crypto.jpg"
+          logo={crypto}
           github="https://github.com/cryptoStimulus/Project-Week-cryptoStimulus"
         >
           <p>
