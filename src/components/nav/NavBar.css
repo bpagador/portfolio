@@ -1,0 +1,23 @@
+.linkList {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navLink {
+    color: inherit;
+    display: block;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 5em;
+
+    &:hover {
+        font-weight: bold;
+    }
+
+    &.current {
+        outline: 1px solid black;
+    }
+}

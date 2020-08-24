@@ -1,2 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap");
 
+.Main {
+    max-width: 850px;
+}

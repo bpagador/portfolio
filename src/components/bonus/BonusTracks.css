@@ -1,0 +1,30 @@
+.bonusList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bonusItem {
+    display: flex;
+    margin-bottom: 1em;
+
+    img {
+        flex: 0 0 200px;
+    }
+
+    strong {
+        font-size: 1.2em;
+    }
+
+    .bonusContent {
+        margin-left: 1em;
+    }
+
+    a {
+        color: #047d99;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

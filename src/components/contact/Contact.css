@@ -1,0 +1,26 @@
+.contactList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contactMethod {
+    a {
+        align-items: center;
+        color: #047d99;
+        display: inline-flex;
+        font-size: 1.2em;
+        padding: 0.5em 0;
+        font-weight: bold;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    img {
+        height: 30px;
+        margin-right: 0.5em;
+        width: auto;
+    }
+}
