@@ -27,7 +27,7 @@ module.exports = {
     })
   ],
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.js', '.jsx', '.pdf']
   },
   module: {
     rules: [
@@ -70,7 +70,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(jpeg|jpg|png|svg)$/,
+        test: /\.(jpeg|jpg|png|svg|pdf)$/,
         use: {
           loader: 'url-loader',
           options: { limit: 1000 },
