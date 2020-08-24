@@ -2,7 +2,8 @@ import React from 'react';
 import Main from '../App/Main';
 import ProjectCard from './ProjectCard';
 import styles from './Projects.css';
-import crypto from './crypto.jpg';
+import crypto from '../../../assets/images/crypto.jpg';
+
 
 export default function Projects() {
   return (
