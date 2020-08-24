@@ -37,13 +37,13 @@ export default function Projects() {
         <ProjectCard
           title="CryptoStimulus"
           website="https://cryptostimulus.github.io/Project-Week-cryptoStimulus/"
-          logo="/assets/images/crypto.jpg"
+          logo="https://briseida-pagador.com/assets/images/crypto.jpg"
           github="https://github.com/cryptoStimulus/Project-Week-cryptoStimulus"
         >
           <p>
                         With wealth redistribution in mind, CryptoStimulus hosts a growing database
                         of grassroots organizations from which the user can filter and select
-                        favorites.{' '}
+                        favorites.
           </p>
         </ProjectCard>
       </div>
