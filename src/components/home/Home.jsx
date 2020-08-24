@@ -17,7 +17,7 @@ export default function Home() {
       </div><h2>[ skills ]</h2>
       <div>
         <p>
-        Javascript, HTML, CSS, React, React Hooks, Node, Express, MongoDB, Mongoose, PostgreSQL, Jest, QUnit, Enzyme, TravisCI, Heroku, Postman,Compass, Webpack, Flux        
+        Javascript, HTML, CSS, React, MVC and Redux, Design Patterns, React Hooks, Node, Express, MongoDB, Mongoose, SQL, Jest, QUnit, Enzyme, TravisCI, Heroku, Postman, PostgreSQL, Compass, Webpack     
         </p>
       </div>
       <br />
