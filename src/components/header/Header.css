@@ -1,4 +1,23 @@
+.Header {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 600px;
+}
+
 .pahloMyPahlo {
     letter-spacing: 0.2em;
     text-transform: uppercase;
+}
+
+.logo {
+    bottom: -100px;
+    height: auto;
+    opacity: 70%;
+    position: absolute;
+    right: -350px;
+    transform: rotate(33deg);
+    width: 400px;
+    z-index: -10;
 }

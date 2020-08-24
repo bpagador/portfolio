@@ -1,11 +1,20 @@
-import React from 'react';
-import styles from './Header.css';
+import React from "react";
+import styles from "./Header.css";
+import Resume from "../resume/Resume";
 
 export default function Header() {
-  return (
-    <div>
-      <h2>fullstack software developer</h2>
-      <h1 className={styles.pahloMyPahlo}>Briseida<br/>Pagador</h1><br/>
-    </div>
-  );
+    return (
+        <header className={styles.Header}>
+            <div>
+                <h2>fullstack software developer</h2>
+                <h1 className={styles.pahloMyPahlo}>
+                    Briseida
+                    <br />
+                    Pagador
+                </h1>
+            </div>
+            <Resume />
+            <img class={styles.logo} src="/assets/images/hummingbird-logo.png" alt="" />
+        </header>
+    );
 }

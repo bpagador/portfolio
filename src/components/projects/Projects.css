@@ -1,9 +1,56 @@
-.ProjectCard {
-    border: 1px solid black;
-    padding: 1em;
-    flex: 0 0 300px;
-}
-
 .projectList {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.ProjectCard {
+    border: 2px dashed #ddd;
+    display: flex;
+    flex: 0 0 350px;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+
+    .titleLink {
+        color: #047d99;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .projectImg {
+        height: auto;
+        width: 200px;
+    }
+
+    .projectImgContainer {
+        flex-grow: 1;
+    }
+
+    .githubLink {
+        align-items: center;
+        color: #047d99;
+        display: flex;
+        font-weight: bold;
+        margin-top: 1em;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            height: auto;
+            margin-right: 0.5em;
+            margin-top: -3px;
+            width: 20px;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
 }

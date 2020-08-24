@@ -1,46 +1,40 @@
-import React from 'react';
-import Main from '../App/Main';
-
+import React from "react";
+import Main from "../App/Main";
+import styles from "./Contact.css";
 
 export default function Contact() {
+    return (
+        <Main>
+            <h2>[ contact ]</h2>
+            <ul class={styles.contactList}>
+                <li class={styles.contactMethod}>
+                    <a href="mailto:bpagador@gmail.com" target="_blank" rel="noreferrer">
+                        <img src="/assets/icons/email.png" alt="" />
+                        <span>Email Me</span>
+                    </a>
+                </li>
 
-  const emailLogo = '../../../assets/icons/email.png';
-  const calendarLogo = '../../../assets/icons/calendly.png';
-  const twitterLogo = '../../../assets/icons/twitter.png';
-  const briseidaContactPg = '../../../assets/images/contact-pg-img.png';
-  return (
-    <Main > 
-      <section>
-        <ul>
+                <li class={styles.contactMethod}>
+                    <a href="https://calendly.com/bpagador" target="_blank" rel="noreferrer">
+                        <img src="/assets/icons/calendly.png" alt="" />
+                        <span>Schedule Time w/ Me</span>
+                    </a>
+                </li>
 
-          <li>
-            <img src={emailLogo} alt="email logo" width="40" height="40"/><br/>
-            <a href="mailto:bpagador@gmail.com" target="_blank" rel="noreferrer">Email Me</a>
-          </li>
+                <li class={styles.contactMethod}>
+                    <a href="https://twitter.com/BriseidaPagador" target="_blank" rel="noreferrer">
+                        <img src="/assets/icons/twitter.png" alt="" />
+                        <span>Tweet @ Me</span>
+                    </a>
+                </li>
+            </ul>
 
-          <br/>
-
-          <li>
-            <img src={calendarLogo} alt="calendly logo" width="35" height="35"/><br/>
-            <a href="https://calendly.com/bpagador" target="_blank" rel="noreferrer">Schedule Time w/ Me</a>
-          </li>
-
-          <br/>
-
-          <li>
-            <img src={twitterLogo} alt="email logo" width="40" height="40"/><br/>
-            <a href="https://twitter.com/BriseidaPagador" target="_blank" rel="noreferrer">Tweet @ Me</a>
-          </li>
-        </ul>
-
-        <section>
-          <img src={briseidaContactPg} alt="Briseida working at her desk" width="510" height="340"/>
-        </section>
-      
-
-      </section>
-    </Main>
-
-
-  );
+            <img
+                src="/assets/images/contact-pg-img.png"
+                alt="Briseida working at her desk"
+                width="510"
+                height="340"
+            />
+        </Main>
+    );
 }
