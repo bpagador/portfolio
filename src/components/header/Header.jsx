@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Header.css';
 import Resume from '../resume/Resume';
+import hummingbird from '../../../assets/images/hummingbird-logo.png';
 
 export default function Header() {
   return (
@@ -14,7 +15,7 @@ export default function Header() {
         </h1>
       </div>
       <Resume />
-      <img className={styles.logo} src="/assets/images/hummingbird-logo.png" alt="" />
+      <img className={styles.logo} src={hummingbird} alt="" />
     </header>
   );
 }
