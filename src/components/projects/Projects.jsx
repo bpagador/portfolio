@@ -12,7 +12,7 @@ export default function Projects() {
         <ProjectCard
           title="FetchArt"
           website="https://fetch-art.netlify.app/"
-          logo="/assets/images/fetchART.jpg"
+          logo="../../../assets/images/fetchART.jpg"
           github="https://github.com/fetch-ART"
         >
           <p>
