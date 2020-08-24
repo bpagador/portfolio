@@ -3,6 +3,8 @@ import Main from '../App/Main';
 import ProjectCard from './ProjectCard';
 import styles from './Projects.css';
 import crypto from '../../../assets/images/crypto.jpg';
+import affirme from '../../../assets/images/affirme-1.jpg';
+import fetchart from '../../../assets/images/fetchART.jpg';
 
 
 export default function Projects() {
@@ -14,7 +16,7 @@ export default function Projects() {
         <ProjectCard
           title="FetchArt"
           website="https://fetch-art.netlify.app/"
-          logo="/assets/images/fetchART.jpg"
+          logo={fetchart}
           github="https://github.com/fetch-ART"
         >
           <p>
@@ -26,7 +28,7 @@ export default function Projects() {
         <ProjectCard
           title="Affirm.e"
           website="https://twitter.com/affirm_e"
-          logo="/assets/images/affirme-1.jpg"
+          logo={affirme}
           github="https://github.com/Affirm-e/affirmations-project"
         >
           <p>

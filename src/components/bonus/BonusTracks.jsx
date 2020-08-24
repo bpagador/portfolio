@@ -1,6 +1,8 @@
 import React from 'react';
 import Main from '../App/Main';
 import styles from './BonusTracks.css';
+import wfh from '../../../assets/work-from-home.jpg';
+import pdxwit from '../../../assets/pdxwit.png';
 
 export default function BonusTracks() {
   const businessTribune =
@@ -10,15 +12,13 @@ export default function BonusTracks() {
   const pdxwitScholarship =
         'https://www.pdxwit.org/blog/2020/7/1/pdxwit-awards-5-investinginyou-scholarships-to-members-of-the-community';
   const speakersBureau = 'https://www.pdxwit.org/speakers-bureau';
-  const workFromHome = '/assets/images/work-from-home.jpg';
-  const pdxwitLogo = '/assets/images/pdxwit.png';
 
   return (
     <Main>
       <h2>[ bonus tracks ]</h2>
       <ul className={styles.bonusList}>
         <li className={styles.bonusItem}>
-          <img src={pdxwitLogo} alt="" />
+          <img src={pdxwit} alt="" />
           <div className={styles.bonusContent}>
             <p>
               <strong>
@@ -42,7 +42,7 @@ export default function BonusTracks() {
 
         <li className={styles.bonusItem}>
           <img
-            src={workFromHome}
+            src={wfh}
             alt="Comic with caption, 'I can't remember–do I work at home or do I live at work?'"
           />
           <div className={styles.bonusContent}>
