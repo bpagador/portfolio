@@ -6,8 +6,9 @@ import resume from '../../../assets/BriseidaPagadorResume.pdf';
 export default function Resume() {
   return (
     <div className={styles.Resume}>
-      <iframe src={resume} title="Briseida Pagador Resume"></iframe>
+      <a href={resume} target="_blank" rel="noreferrer">
         Resume
+      </a>
     </div>
   );
 }
