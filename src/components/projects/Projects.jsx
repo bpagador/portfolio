@@ -21,7 +21,7 @@ export default function Projects() {
           github="https://github.com/GOATDreamTeam"
         >
           <p>
-            {'Fullstack / Frontend-heavy open-access plant encyclopedia made for botanists and plant newbies alike. App is web-responsive + mobile-friendly and has site-wide Color Blind accessibility ("Check for Monochrome") and provides "top search" suggestions to the user.'}
+            {'Fullstack / Frontend-heavy open-access plant encyclopedia made for botanists and plant newbies alike. App is web-responsive + mobile-friendly, has site-wide Color Blind accessibility ("Check for Monochrome") and provides "top search" suggestions to the user.'}
           </p>
         </ProjectCard>
         
