@@ -6,7 +6,7 @@ export default function Home() {
     <Main>
       <h2>[ brih · say · dah | she/her]</h2>
       <div>
-        <p>Hi, great to see you! Welcome to my Portfolio --v 1.0.</p>
+        <p>Hi, great to see you! Welcome to my Portfolio --v 1.1.</p>
         <p>
                     I hope we meet someday to talk about how important this year has been and how
                     momentous that--despite radical unrest, uncertainty, and constant, forthcoming
@@ -17,7 +17,7 @@ export default function Home() {
       </div><h2>[ skills ]</h2>
       <div>
         <p>
-        Javascript, HTML, CSS, React, MVC and Redux, Design Patterns, React Hooks, Node, Express, MongoDB, Mongoose, SQL, Jest, QUnit, Enzyme, TravisCI, Heroku, Postman, PostgreSQL, Compass, Webpack     
+        Javascript, HTML, CSS, JSS, React, MVC and Redux Design Patterns, React Hooks, Node, Express, MongoDB, Mongoose, SQL, Jest, QUnit, Enzyme, TravisCI, Heroku, Postman, PostgreSQL, Compass, Webpack    
         </p>
       </div>
       <br />
