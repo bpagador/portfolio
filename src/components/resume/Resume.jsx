@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Resume.css';
-import resume from '../../../assets/Resume_BriseidaPagador';
+import resume from '../../../assets/Resume_BriseidaPagador.pdf';
 
 
 export default function Resume() {
