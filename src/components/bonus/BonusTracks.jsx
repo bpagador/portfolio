@@ -13,7 +13,7 @@ export default function BonusTracks() {
 
   return (
     <Main>
-      <h2>[ bonus tracks ]</h2>
+      <h2>Bonus Tracks</h2>
       <ul className={styles.bonusList}>
         <li className={styles.bonusItem}>
           <img src={pdxwit} alt="" />
