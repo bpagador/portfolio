@@ -7,12 +7,9 @@ export default function Header() {
   return (
     <header className={styles.Header}>
       <div>
-        <h2>fullstack software developer</h2>
+        <h2>software engineer</h2>
         <h1 className={styles.pahloMyPahlo}>
-                    Briseida
-          <br />
-                    Pagador
-        </h1>
+          BRISEIDA <br/> <em>brih·say·dah</em> <br/> PAGADOR </h1>
       </div>
       <Resume />
       <img className={styles.logo} src={hummingbird} alt="" />

@@ -12,13 +12,6 @@ export default function NavBar() {
             Home
           </NavLink>
         </li>
-
-        <li>
-          <NavLink to="/projects" className={styles.navLink} activeClassName={styles.current}>
-            Projects
-          </NavLink>
-        </li>
-      
         <li>
           <a
             href="https://github.com/bpagador"
